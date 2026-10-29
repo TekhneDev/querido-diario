@@ -1,0 +1,100 @@
+gazette_id,spider,spider_base,data,url_publica,tipo_detectado,cloudflare,bytes,titulo
+63809,al_maceio,BaseSigpubSpider,2014-06-25,https://data.queridodiario.ok.org.br/2704302/2014-06-25/0119e4d9034752cdb34faa80662a1857b984f754.pdf,html,False,62054,Prefeitura de Maceió
+49050,am_manaus,individual,2009-09-04,https://data.queridodiario.ok.org.br/1302603/2009-09-04/76cae1752204f87454f799af0d12aee379ca3c46.pdf,html,False,656,502 Proxy Error
+213923,ap_santana,individual,2019-01-08,https://data.queridodiario.ok.org.br/1600600/2019-01-08/a489bbe66c00e02e8ccf7328385bd5d4d1ddb165,html,False,75324,D.O.M - Nº 842 - 01 a 08 de Janeiro de 2019.pdf - Google Drive
+213899,ap_santana,individual,2019-07-08,https://data.queridodiario.ok.org.br/1600600/2019-07-08/761922af933f041e8f1a97d2f66a332bdcf530e3,html,False,75316,D.O.M - Nº 866 - 01 a 08 de Julho de 2019.pdf - Google Drive
+213868,ap_santana,individual,2021-06-15,https://data.queridodiario.ok.org.br/1600600/2021-06-15/4be8a684a5522f72858680d9d0455782565c9eae,html,False,75278,Diario Oficial 1119 - 15 de Junho de 2021 - Google Drive
+1565398,ap_tartarugalzinho,BaseAdiariosV1Spider,2026-09-17,https://data.queridodiario.ok.org.br/1600709/2026-09-17/2365fa8f927259f1eb5cebc8193093a6ea71cde7,html,True,4001,Prefeitura de Tartarugalzinho
+1565540,ce_aurora,BaseAdiariosV1Spider,2026-09-18,https://data.queridodiario.ok.org.br/2301703/2026-09-18/d30073b1df541f2a12b6194f8144706b62ec3b8f,html,True,3965,Prefeitura de Aurora
+1564966,ce_caninde,BaseAdiariosV1Spider,2026-09-17,https://data.queridodiario.ok.org.br/2302800/2026-09-17/8f347e58acf1ba354f2f21d971856bc550c22ca7,html,True,3973,Prefeitura de Canindé
+1564967,ce_caririacu,BaseAdiariosV1Spider,2026-09-17,https://data.queridodiario.ok.org.br/2303204/2026-09-17/b0fb3021e1d09fc033507667db22b6f927d0450c,html,True,3981,Prefeitura de Caririaçu
+1565543,ce_caucaia,BaseAdiariosV1Spider,2026-09-18,https://data.queridodiario.ok.org.br/2303709/2026-09-18/b7c6a960dacd4dca831a9379c4ea0f862977dab5,html,True,3938,Prefeitura de Caucaia
+1565544,ce_cedro,BaseAdiariosV1Spider,2026-09-17,https://data.queridodiario.ok.org.br/2303808/2026-09-17/21cc0a7063bcf922ca34e79794d339ff5cdfe560,html,True,3961,Prefeitura de Cedro
+1565545,ce_crateus,BaseAdiariosV1Spider,2026-09-17,https://data.queridodiario.ok.org.br/2304103/2026-09-17/eb8ca4926b723b0f50af9a1c0fb93a871907d19b,html,True,3972,Prefeitura de Crateús
+1564337,ce_general_sampaio,BaseAdiariosV1Spider,2026-09-16,https://data.queridodiario.ok.org.br/2304608/2026-09-16/fb91c88a8e3619f793e8ad285efc554be8fb7c91,html,True,4000,Prefeitura de General Sampaio
+1564970,ce_hidrolandia,BaseAdiariosV1Spider,2026-09-16,https://data.queridodiario.ok.org.br/2305209/2026-09-16/a72e4a3559d9526fe90f79fe6591494461b74cfd,html,True,3887,Prefeitura de Hidrolândia
+1565547,ce_itaitinga,BaseAdiariosV1Spider,2026-09-18,https://data.queridodiario.ok.org.br/2306256/2026-09-18/c44b9934210b0d3b9ea5e494d3cdab4f6d2ca94d,html,True,3977,Prefeitura de Itaitinga
+1565548,ce_juazeiro_do_norte,BaseAdiariosV1Spider,2026-09-18,https://data.queridodiario.ok.org.br/2307304/2026-09-18/32c0dad9b5579622451a136739edf6ae8f2783cb,html,True,4007,Prefeitura de Juazeiro do Norte
+1156470,es_vitoria,individual,2015-02-06,https://data.queridodiario.ok.org.br/3205309/2015-02-06/d8417f15d058a91ac6555baf95ceee6740d3a7ff,html,False,5506,
+1196526,es_vitoria,individual,2025-02-07,https://data.queridodiario.ok.org.br/3205309/2025-02-07/d7d8d9f8c7c9eb157292fbb10725c89e2da78c16,html,False,6933,
+1200514,es_vitoria,individual,2025-02-17,https://data.queridodiario.ok.org.br/3205309/2025-02-17/9a92bbc1fda3cf52b46a457a5385edcfc387bbf1,html,False,6933,
+319434,ma_afonso_cunha,BaseSiganetSpider,2023-08-24,https://data.queridodiario.ok.org.br/2100105/2023-08-24/43644d1bb78b136504934d344ec50f74f1812006,html,False,7023,Siganet
+1565554,ma_anajatuba,BaseAdiariosV1Spider,2026-09-18,https://data.queridodiario.ok.org.br/2100709/2026-09-18/df2b935873850773db4fede83b3ba58f2dd60ebf,html,True,3704,Prefeitura de Anajatuba
+1539029,ma_boa_vista_do_gurupi,BaseSiganetSpider,2026-02-09,https://data.queridodiario.ok.org.br/2101970/2026-02-09/ababf9d51e4c397f3711dc388ae4f3091a7c662c.pdf,html,False,7304,Siganet
+1565556,ma_bom_jardim,BaseAdiariosV1Spider,2026-09-18,https://data.queridodiario.ok.org.br/2102002/2026-09-18/0003135890b5dfc35076ed6d0515c64d19e4618f,html,True,3706,Prefeitura de Bom Jardim
+1565558,ma_bom_lugar,BaseAdiariosV1Spider,2026-09-18,https://data.queridodiario.ok.org.br/2102077/2026-09-18/e92d847ad64e54d4345c7037c82c2bfb69479a3d,html,True,3713,Prefeitura Municipal de Bom Lugar
+1565559,ma_buriticupu,BaseAdiariosV1Spider,2026-09-18,https://data.queridodiario.ok.org.br/2102325/2026-09-18/04f1d59191cb2caec291c4306ec05b1334ba0d06,html,True,3717,Prefeitura Municipal de Buriticupu
+1565560,ma_itapecuru_mirim,BaseAdiariosV1Spider,2026-09-18,https://data.queridodiario.ok.org.br/2105401/2026-09-18/a70ca151634f077538fbb685b089b57230003c70,html,True,4000,Prefeitura de Itapecuru-Mirim
+1565561,ma_maracacume,BaseAdiariosV1Spider,2026-09-17,https://data.queridodiario.ok.org.br/2106326/2026-09-17/0f733d16ce6db2af36b01c941d8a36e6dbe86333,html,True,3989,Prefeitura de Maracaçumé
+277415,ma_sao_jose_dos_basilios,individual,2020-08-06,https://data.queridodiario.ok.org.br/2111250/2020-08-06/47fe2f8880714d5c440750381eb85ca945515711,html,False,7023,Siganet
+748162,mg_juatuba,BaseInstarSpider,2021-08-15,https://data.queridodiario.ok.org.br/3136652/2021-08-15/290cc3fbcb3d8e1b58dfb8a9412cdcca822facde,html,False,474605,Prefeitura Municipal de Juatuba - Diário Oficial /2021
+748897,mg_juatuba,BaseInstarSpider,2021-08-15,https://data.queridodiario.ok.org.br/3136652/2021-08-15/60100520098e8f648cab60c7ea95ee9ab0b877a7,html,False,474611,Prefeitura Municipal de Juatuba - Diário Oficial /2021
+1202273,mg_juatuba,BaseInstarSpider,2025-02-20,https://data.queridodiario.ok.org.br/3136652/2025-02-20/9d5157ce6596d0190f862a6901cf1630391a35e9,html,False,474620,Prefeitura Municipal de Juatuba - Diário Oficial /2025
+226654,mg_nova_serrana,BaseInstarSpider,2016-09-27,https://data.queridodiario.ok.org.br/3145208/2016-09-27/c963f072ab8fd429098710560722b55218cb8997,html,False,457435,Prefeitura Nova Serrana - A cidade que mais cresce em Minas - Diário O
+786561,mg_uberlandia,individual,2024-07-12,https://data.queridodiario.ok.org.br/3170206/2024-07-12/9d957a3c001db909e15b3c66c78a08127460f9af.pdf,html,False,205997,Portal da Prefeitura de Uberlândia &#8211; Fazer mais. Fazer bem.
+822493,mg_uberlandia,individual,2024-08-14,https://data.queridodiario.ok.org.br/3170206/2024-08-14/fc868c3f7cb2dba8d5a6206a95817ab08cbad646.pdf,html,False,206444,Portal da Prefeitura de Uberlândia &#8211; Site oficial da Prefeitura
+1027808,mg_uberlandia,individual,2024-12-16,https://data.queridodiario.ok.org.br/3170206/2024-12-16/3808b39c4f1d6219064e9a070e6dbaa26347e07d.pdf,html,False,294200,Portal da Prefeitura de Uberlândia &#8211; Site oficial da Prefeitura
+150804,ms_campo_grande,individual,1998-01-09,https://data.queridodiario.ok.org.br/5002704/1998-01-09/fdc26521cabe2ea8918490326fdfc59ace9ec865.pdf,html,False,1173,
+150759,ms_campo_grande,individual,1998-03-17,https://data.queridodiario.ok.org.br/5002704/1998-03-17/358f79e5b7554d5ae600683f33dd3b6a1c46045a.pdf,html,False,1173,
+293162,ms_campo_grande,individual,2023-07-19,https://data.queridodiario.ok.org.br/5002704/2023-07-19/3d25a7c0d60fa797314426fe5bd5080f4cf4d561.pdf,html,False,1104,
+582350,ms_corumba,BaseDionetSpider,2015-03-06,https://data.queridodiario.ok.org.br/5003207/2015-03-06/ba7aa07fda940a300356434f4f7cede0e0236d2e,html,False,21589,Diário Oficial / Home
+1564420,pa_garrafao_do_norte,BaseAdiariosV1Spider,2026-09-15,https://data.queridodiario.ok.org.br/1503077/2026-09-15/07a103f2d82e2b7d685e54ae0d974bd67ceb9d22,html,True,3728,Prefeitura de Garrafão do Norte
+1565613,pb_jacarau,BaseAdiariosV1Spider,2026-09-18,https://data.queridodiario.ok.org.br/2507309/2026-09-18/90af9c505fd4bd69c3f24c2c6622f8a0d679847d,html,True,3945,Prefeitura Municipal de Jacaraú
+55195,pb_joao_pessoa,individual,2020-07-29,https://data.queridodiario.ok.org.br/2507507/2020-07-29/69dc8d363935740b3815110055958eef157869fe,html,False,63704,2020_Edição_Especial_29-07 | Prefeitura Municipal de João Pessoa
+55441,pb_joao_pessoa,individual,2021-05-18,https://data.queridodiario.ok.org.br/2507507/2021-05-18/4f1be5965991a294c13bfaa772ace3d83f497861,html,False,63683,2021_Edição_Especial_18-05 | Prefeitura Municipal de João Pessoa
+120742,pb_joao_pessoa,individual,2022-03-25,https://data.queridodiario.ok.org.br/2507507/2022-03-25/02a48f6fe9d090aa1a9f85c2eebfd316b130d70c,html,False,63868,Edição Especial | Prefeitura Municipal de João Pessoa
+1565030,pb_marizopolis,BaseAdiariosV1Spider,2026-09-17,https://data.queridodiario.ok.org.br/2509156/2026-09-17/af9cc681bf0e58e561b03a8685ff505e3d31dfb3,html,True,4009,Prefeitura Municipal de Marizópolis
+1565615,pb_piloezinhos,BaseAdiariosV1Spider,2026-09-17,https://data.queridodiario.ok.org.br/2511707/2026-09-17/828bf30759ade4d770d72c884083cb7686ce453d,html,True,4007,Prefeitura Municipal de Pilõezinhos
+1565617,pb_riachao,BaseAdiariosV1Spider,2026-09-18,https://data.queridodiario.ok.org.br/2512747/2026-09-18/df184e514aace07d873b1c9a3eb6be6d649bdbed,html,True,3945,Prefeitura Municipal de Riachão
+1564427,pb_sao_jose_dos_ramos,BaseAdiariosV1Spider,2026-09-15,https://data.queridodiario.ok.org.br/2514453/2026-09-15/e94e20bb02779e351a4de89cc8c30af376a3c3e4,html,True,4018,Prefeitura de São José dos Ramos
+1562710,pb_serraria,BaseAdiariosV1Spider,2026-08-27,https://data.queridodiario.ok.org.br/2515906/2026-08-27/db7408767c59675e8fea60123b6d6d5448fc7406,html,True,3979,Prefeitura Municipal de Serraria
+1565031,pb_tacima,BaseAdiariosV1Spider,2026-09-17,https://data.queridodiario.ok.org.br/2516409/2026-09-17/c1b0cf82d3b0ba22c5940be2acca9c94efa63931,html,True,3942,Prefeitura Municipal de Tacima
+118391,pe_jaboatao_dos_guararapes,individual,2017-03-04,https://data.queridodiario.ok.org.br/2607901/2017-03-04/7b9265db77deabbe5f21c63a2d22c289a6aac2bd,html,False,38824,04 de Março de 2017 – Ano XXVII – N°041 – Jaboatão dos Guararapes &#82
+118188,pe_jaboatao_dos_guararapes,individual,2020-01-29,https://data.queridodiario.ok.org.br/2607901/2020-01-29/1334f7cb609e10d34baf1b5c0f1c5dc094920ca6,html,False,38440,29 DE JANEIRO DE 2020 – XXX – Nº 020 – JABOATÃO DOS GUARARAPES &#821
+118378,pe_jaboatao_dos_guararapes,individual,2022-02-18,https://data.queridodiario.ok.org.br/2607901/2022-02-18/0629ef12dbb85cc1e29449b6ab1be7643df742b2,html,False,38448,18 DE FEVEREIRO DE 2022 – XXXI – Nº 34 – JABOATÃO DOS GUARARAPES &#8
+1563078,pe_moreilandia,BaseAdiariosV1Spider,2026-08-28,https://data.queridodiario.ok.org.br/2614303/2026-08-28/b063bd5b704d72cf960e3ad157a2525a7c8aa8c7,html,True,3702,Prefeitura de Moreilândia
+799097,rj_armacao_dos_buzios,BaseAdiariosV2Spider,2016-11-19,https://data.queridodiario.ok.org.br/3300233/2019-04-30/f35f640cd734ebdaf8ed6b97f66af037b071ff86,html,False,599174,Home - Prefeitura Municipal de Armação dos Búzios
+1018566,rj_armacao_dos_buzios,BaseAdiariosV2Spider,2024-11-29,https://data.queridodiario.ok.org.br/3300233/2024-11-29/f35f640cd734ebdaf8ed6b97f66af037b071ff86,html,False,720308,Prefeitura Municipal de Armação dos Búzios
+1143922,rj_armacao_dos_buzios,BaseAdiariosV2Spider,2025-01-08,https://data.queridodiario.ok.org.br/3300233/2025-01-08/f35f640cd734ebdaf8ed6b97f66af037b071ff86,html,False,687581,Home - Prefeitura Municipal de Armação dos Búzios
+1254137,rj_barra_mansa,individual,2017-01-30,https://data.queridodiario.ok.org.br/3300407/2017-01-30/85e58a47f8746c2c5a5e41efde3b69d15af97af8,html,False,3380,Download
+1254300,rj_barra_mansa,individual,2020-08-11,https://data.queridodiario.ok.org.br/3300407/2020-08-11/b65d5378bff02e76195dbb1421120c6cda87a04b,html,False,3380,Download
+1248734,rj_barra_mansa,individual,2025-03-14,https://data.queridodiario.ok.org.br/3300407/2025-03-14/65d1112db16b521c1bcf1bd8025c98d65fe2ae98,html,False,3380,Download
+1251046,rj_campos_dos_goytacazes,individual,2014-03-31,https://data.queridodiario.ok.org.br/3301009/2014-03-31/95a2ac602d9e3ea8f89ae139132863261e1070dc,html,False,67265,Portal Oficial da Prefeitura Municipal de Campos dos Goytacazes
+1252611,rj_campos_dos_goytacazes,individual,2020-09-18,https://data.queridodiario.ok.org.br/3301009/2020-09-18/ef0f6053ac284c1934339bbef022e97d1c9504c0,html,False,67265,Portal Oficial da Prefeitura Municipal de Campos dos Goytacazes
+1508993,rj_campos_dos_goytacazes,individual,2026-06-30,https://data.queridodiario.ok.org.br/3301009/2026-06-30/f68c30a5eb55fc25a42467a15ceaca2101c5aed5,html,False,67056,Portal Oficial da Prefeitura Municipal de Campos dos Goytacazes
+817841,rj_casimiro_de_abreu,BaseAdiariosV2Spider,2024-08-06,https://data.queridodiario.ok.org.br/3301306/2024-08-06/87b0baeb6f0fd879bcfdc9312405c0f12c69bce4,html,False,570806,Arquivo Portal Transparência - Prefeitura de Casimiro de Abreu
+719803,rj_cordeiro,BaseAdiariosV2Spider,2017-10-05,https://data.queridodiario.ok.org.br/3301504/2017-10-05/47d63ccba3bc29f31209fae93792710653c5619b.pdf,html,False,48931,Prefeitura Municipal de Cordeiro
+720060,rj_cordeiro,BaseAdiariosV2Spider,2018-02-05,https://data.queridodiario.ok.org.br/3301504/2018-02-05/304513cccf53ed7223db6d060fb75f548091b4da.pdf,html,False,48931,Prefeitura Municipal de Cordeiro
+719990,rj_cordeiro,BaseAdiariosV2Spider,2018-08-09,https://data.queridodiario.ok.org.br/3301504/2018-08-09/48764057295e17b9a3ffb866dd6bf64f43076fb7.pdf,html,False,48931,Prefeitura Municipal de Cordeiro
+800285,rj_quissama,BaseAdiariosV2Spider,2017-08-08,https://data.queridodiario.ok.org.br/3304151/2017-08-08/942284bb9c525d0432767e3c3fc38258ebd47b22,html,False,81556,Prefeitura Municipal de Quissamã
+800289,rj_quissama,BaseAdiariosV2Spider,2017-08-22,https://data.queridodiario.ok.org.br/3304151/2017-08-08/942284bb9c525d0432767e3c3fc38258ebd47b22,html,False,81556,Prefeitura Municipal de Quissamã
+801847,rj_quissama,BaseAdiariosV2Spider,2023-06-15,https://data.queridodiario.ok.org.br/3304151/2017-08-08/942284bb9c525d0432767e3c3fc38258ebd47b22,html,False,81556,Prefeitura Municipal de Quissamã
+67777,rj_rio_de_janeiro,BaseDionetSpider,2014-05-05,https://data.queridodiario.ok.org.br/3304557/2014-05-05/9f78813402413bca63e94ee2725d294908e10793,html,False,20360,Imprensa Oficial - Prefeitura do Rio de Janeiro
+1027253,rj_rio_de_janeiro,BaseDionetSpider,2024-12-12,https://data.queridodiario.ok.org.br/3304557/2024-12-12/07f0ae400ae9091ffa6c8ea6e3dde38450d8ded9,html,False,19991,Imprensa Oficial - Prefeitura do Rio de Janeiro
+1027252,rj_rio_de_janeiro,BaseDionetSpider,2024-12-12,https://data.queridodiario.ok.org.br/3304557/2024-12-12/032ca84ffbde6d7ec2bffa517f6c74ba7d5763ca,html,False,19991,Imprensa Oficial - Prefeitura do Rio de Janeiro
+852110,rj_sao_joao_da_barra,BasePortalGovSpider,2014-05-13,https://data.queridodiario.ok.org.br/3305000/2014-05-13/c5c5c9586d0546a0cbeeec1d484aa8dacf6302cb.pdf,html,False,26901,
+859843,rj_sao_joao_da_barra,BasePortalGovSpider,2015-10-29,https://data.queridodiario.ok.org.br/3305000/2015-10-29/7aba5e532c837b38fad25fe12d8c7981716ff8f2.pdf,html,False,26901,
+855712,rj_sao_joao_da_barra,BasePortalGovSpider,2020-09-17,https://data.queridodiario.ok.org.br/3305000/2020-09-17/88cbc70fb5e80c7f037e80a5a7f390cb9f47a470.pdf,html,False,26901,
+1386256,rj_sapucaia,BasePtioSpider,2025-11-12,https://data.queridodiario.ok.org.br/3305406/2025-11-12/585b8bb2fd1f1ac59e930658c8a534602c2160d1,html,False,7227,Portal Oficial da Transparência
+1565702,rn_pau_dos_ferros_2022,BaseAdiariosV1Spider,2026-09-18,https://data.queridodiario.ok.org.br/2409407/2026-09-18/0df297b2e20f374460fd0c4bdd4e62251b9cfabd,html,True,3995,Prefeitura de Pau dos Ferros
+1565703,rn_santa_cruz,BaseAdiariosV1Spider,2026-09-18,https://data.queridodiario.ok.org.br/2411205/2026-09-18/fd671b4d2b076eeefbc810af5db66c961d0c6573,html,True,3887,Prefeitura Municipal de Santa Cruz
+1564531,rn_sao_francisco_do_oeste,BaseAdiariosV1Spider,2026-09-16,https://data.queridodiario.ok.org.br/2411908/2026-09-16/3950e1a963ffd035af3b44d106fb5ba0af6b014e,html,True,4030,Prefeitura de São Francisco do Oeste
+1565704,rn_taboleiro_grande,BaseAdiariosV1Spider,2026-09-18,https://data.queridodiario.ok.org.br/2413805/2026-09-18/6f079d64f041a3bfe039ac77f8dce0d369e31d31,html,True,4004,Prefeitura de Taboleiro Grande
+265299,rs_porto_alegre,individual,2023-05-04,https://data.queridodiario.ok.org.br/4314902/2023-05-04/2f6ab6ab702ad7b719fe8b148becb2dc317a974e.pdf,html,False,30231,Microsoft Power BI
+265300,rs_porto_alegre,individual,2023-05-05,https://data.queridodiario.ok.org.br/4314902/2023-05-05/1f222367ff717d3f5e7312dea9471b13635fd5e0.pdf,html,False,30231,Microsoft Power BI
+265298,rs_porto_alegre,individual,2023-05-05,https://data.queridodiario.ok.org.br/4314902/2023-05-05/790872092e91a30b09d344a39bca3e0acb772553.pdf,html,False,30231,Microsoft Power BI
+408957,sp_botucatu,BaseDospSpider,2005-10-27,https://data.queridodiario.ok.org.br/3507506/2005-10-27/9e7236f1cb5130ef06c6583c305840dac9897dd3,html,False,461885,Prefeitura de Botucatu - SP - Diário Oficial /2005
+409575,sp_botucatu,BaseDospSpider,2010-05-20,https://data.queridodiario.ok.org.br/3507506/2010-05-20/01d4474b01434856f7e2537ecefb85a66a459248,html,False,461877,Prefeitura de Botucatu - SP - Diário Oficial /2010
+409802,sp_botucatu,BaseDospSpider,2012-06-22,https://data.queridodiario.ok.org.br/3507506/2012-06-22/c908a6940ec21de47daa609064466b26f6197cf6,html,False,461887,Prefeitura de Botucatu - SP - Diário Oficial /2012
+348402,sp_catanduva,BaseDospSpider,2017-01-25,https://data.queridodiario.ok.org.br/3511102/2017-01-25/56d25b3c0c36b1cb3268bf851bec8e9dc14fb494,html,False,1578,
+1508863,sp_itapolis,BaseInstarSpider,2026-06-29,https://data.queridodiario.ok.org.br/3522703/2026-06-29/d90e3d823eaff771a55368c335b6d5a9760cf742,html,False,3943,Itápolis - SP - Diário Oficial /2026
+231191,sp_jaboticabal,BaseInstarSpider,2010-11-19,https://data.queridodiario.ok.org.br/3524303/2010-11-19/d724bfb649912f752611c98bfb899eb4ac577196,html,False,459138,Prefeitura de Jaboticabal - SP - Diário Oficial /2010
+231878,sp_jaboticabal,BaseInstarSpider,2012-03-09,https://data.queridodiario.ok.org.br/3524303/2012-03-09/499d5f4fb4a196ab1860c6654003ee6d6cac4d63,html,False,459139,Prefeitura de Jaboticabal - SP - Diário Oficial /2012
+231836,sp_jaboticabal,BaseInstarSpider,2014-06-18,https://data.queridodiario.ok.org.br/3524303/2014-06-18/2e7c8191f3a85cce34bce42749be0af676545465,html,False,459139,Prefeitura de Jaboticabal - SP - Diário Oficial /2014
+184890,sp_santo_andre,BaseInstarSpider,2021-10-28,https://data.queridodiario.ok.org.br/3547809/2021-10-28/3ef17714d53371cf02b4355d7484563a407390e5,html,False,458219,Prefeitura Municipal de Santo André - Diário Oficial /2021
+584740,sp_sao_jose_dos_campos,BaseDionetSpider,2016-10-07,https://data.queridodiario.ok.org.br/3549904/2016-10-07/2995395594f6d58c56e645d3f4e98a391c977fd5,html,False,21440,Diário Oficial / Home
+167836,sp_valinhos,BaseInstarSpider,2006-02-20,https://data.queridodiario.ok.org.br/3556206/2006-02-20/f466d2a0975258ca3e213e06438616888c94904e,html,False,456493,Prefeitura de Valinhos - Diário Oficial /2006
+168754,sp_valinhos,BaseInstarSpider,2007-10-17,https://data.queridodiario.ok.org.br/3556206/2007-10-17/06367c4ea50fd78cd7174bb7dc28a9bfc1b50dbd,html,False,456489,Prefeitura de Valinhos - Diário Oficial /2007
+168315,sp_valinhos,BaseInstarSpider,2013-05-24,https://data.queridodiario.ok.org.br/3556206/2013-05-24/dda1d66ac5c075b0264bd8d4adec38d041de59ab,html,False,456484,Prefeitura de Valinhos - Diário Oficial /2013
+1565389,to_axixa_do_tocantins,BaseAdiariosV1Spider,2026-09-17,https://data.queridodiario.ok.org.br/1702901/2026-09-17/5462288058de94c3aee2564a40c8c7d99ec94ee5,html,True,3710,Prefeitura de Axixá do Tocantins
+932557,to_caseara,BaseDiarioOficialBRSpider,2021-07-27,https://data.queridodiario.ok.org.br/1703909/2021-07-27/6873743c07ad123bda187b23ff3805bac841b7a3.pdf,html,False,67300,Diário Oficial Unificado dos Municípios - Caseara - Tocantins
