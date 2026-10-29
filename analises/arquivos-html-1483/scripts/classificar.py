@@ -1,6 +1,7 @@
 import csv
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 
 from scrapy.http import Response
@@ -27,8 +28,6 @@ for row in csv.DictReader(open(amostra_csv)):
 w = csv.DictWriter(open(saida, "w"), fieldnames=out[0].keys())
 w.writeheader()
 w.writerows(out)
-from collections import Counter
-
 print("tipo detectado:", Counter(r["tipo_detectado"] for r in out))
 print(
     "cloudflare:",
