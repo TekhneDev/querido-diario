@@ -188,3 +188,44 @@ def test_files_pipeline_keeps_file_when_secondary_bucket_copy_fails(tmp_path):
 
     assert result["status"] == "downloaded"
     assert (tmp_path / result["path"]).exists()
+
+
+def build_files_pipeline(tmp_path):
+    install_reactor("twisted.internet.asyncioreactor.AsyncioSelectorReactor")
+    crawler = get_crawler(Spider, settings_dict={"FILES_STORE": str(tmp_path)})
+    pipeline = QueridoDiarioFilesPipeline.from_crawler(crawler)
+    return pipeline, MediaPipeline.SpiderInfo(Spider(name="test"))
+
+
+def download_file(pipeline, info, body, content_type):
+    request = Request("https://example.com/diario")
+    response = Response(
+        request.url,
+        body=body,
+        headers={"Content-Type": content_type},
+        request=request,
+    )
+    item = {"territory_id": "1234567", "date": "2026-01-01"}
+    return pipeline.media_downloaded(response, request, info, item=item)
+
+
+def test_files_pipeline_counts_downloaded_files_by_type(tmp_path):
+    pipeline, info = build_files_pipeline(tmp_path)
+
+    download_file(pipeline, info, b"%PDF-1.4 gazette", "application/pdf")
+    download_file(pipeline, info, b"%PDF-1.4 other gazette", "application/pdf")
+    download_file(pipeline, info, b"<!DOCTYPE html><html></html>", "text/html")
+
+    stats = pipeline.crawler.stats
+    assert stats.get_value("file_type/pdf") == 2
+    assert stats.get_value("file_type/html") == 1
+
+
+def test_files_pipeline_keeps_html_file_and_logs_warning(tmp_path, caplog):
+    pipeline, info = build_files_pipeline(tmp_path)
+
+    result = download_file(pipeline, info, b"<!DOCTYPE html><html></html>", "text/html")
+
+    assert result["status"] == "downloaded"
+    assert (tmp_path / result["path"]).exists()
+    assert "is an HTML page, not a gazette document" in caplog.text

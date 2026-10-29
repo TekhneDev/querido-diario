@@ -15,6 +15,7 @@ from sqlalchemy.orm import sessionmaker
 from gazette.database.models import Gazette, initialize_database
 from gazette.utils.api_client import api_client_from_settings
 from gazette.utils.database import generate_territory_spider_map
+from gazette.utils.files import detect_file_type
 
 
 class GazetteDateFilteringPipeline:
@@ -203,6 +204,7 @@ class QueridoDiarioFilesPipeline(FilesPipeline):
         - adds the file_requests item field to download files from request instances
         - allows a download_file_headers spider attribute to modify file_urls requests
         - saves files to two S3 buckets (primary and secondary)
+        - counts downloaded files by type (file_type/* stats)
     """
 
     DEFAULT_FILES_REQUESTS_FIELD = "file_requests"
@@ -272,12 +274,27 @@ class QueridoDiarioFilesPipeline(FilesPipeline):
         # computed again to know where the file was stored
         checksum = super().file_downloaded(response, request, info, item=item)
 
+        self._track_file_type(response, request, info.spider)
+
         # Copy to secondary bucket if configured
         if self.s3_client:
             file_path = self.file_path(request, response=response, info=info, item=item)
             self._copy_to_secondary_bucket(file_path, response.body, info.spider)
 
         return checksum
+
+    def _track_file_type(self, response, request, spider):
+        """Count downloaded files by type and warn about HTML pages, which
+        usually mean the spider saved a web page instead of the gazette."""
+        file_type = detect_file_type(response)
+        self.crawler.stats.inc_value(f"file_type/{file_type}")
+
+        if file_type == "html":
+            spider.logger.warning(
+                "File downloaded from %s is an HTML page, not a gazette "
+                "document. It was saved, but probably can't be processed.",
+                request.url,
+            )
 
     def get_media_requests(self, item, info):
         """Makes requests from urls and/or lets through ready requests."""

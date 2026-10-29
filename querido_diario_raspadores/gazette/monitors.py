@@ -69,6 +69,34 @@ class ComparisonBetweenSpiderExecutionsMonitor(Monitor):
             )
 
 
+@monitors.name("Downloaded File Types")
+class FileTypeMonitor(Monitor):
+    @monitors.name("Ratio of HTML pages over downloaded files")
+    def test_html_files_ratio(self):
+        stats = self.data.stats
+        n_files = sum(
+            count for stat, count in stats.items() if stat.startswith("file_type/")
+        )
+        if n_files == 0:
+            self.skipTest("No files downloaded.")
+
+        n_html_files = stats.get("file_type/html", 0)
+        max_ratio = self.data.crawler.settings.getfloat(
+            "QUERIDODIARIO_MAX_HTML_FILES_RATIO", 0
+        )
+        ratio = n_html_files / n_files
+        self.assertLessEqual(
+            ratio,
+            max_ratio,
+            msg=(
+                f"{n_html_files} of {n_files} downloaded files are HTML pages "
+                f"({round(ratio * 100, 2)}%), above the allowed "
+                f"{round(max_ratio * 100, 2)}%. The spider is probably saving "
+                "web pages instead of gazettes."
+            ),
+        )
+
+
 class CustomSendDiscordMessage(SendDiscordMessage):
     def get_message(self):
         stats = self.data.stats
@@ -100,6 +128,7 @@ class SpiderCloseMonitorSuite(MonitorSuite):
     monitors = [
         ComparisonBetweenSpiderExecutionsMonitor,
         RequestsItemsRatioMonitor,
+        FileTypeMonitor,
         ErrorCountMonitor,
         FinishReasonMonitor,
         ItemValidationMonitor,

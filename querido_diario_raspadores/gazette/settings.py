@@ -54,6 +54,9 @@ QUERIDODIARIO_API_URL = config("QUERIDODIARIO_API_URL", default="")
 QUERIDODIARIO_API_KEY = config("QUERIDODIARIO_API_KEY", default="")
 QUERIDODIARIO_MAX_REQUESTS_ITEMS_RATIO = 5
 QUERIDODIARIO_MAX_DAYS_WITHOUT_GAZETTES = 7
+# Maximum ratio of downloaded files that can be HTML pages instead of gazette
+# documents (see FileTypeMonitor). Set to 1 to disable the check.
+QUERIDODIARIO_MAX_HTML_FILES_RATIO = 0
 
 # These settings are needed only when storing downloaded files
 # in a S3 bucket
