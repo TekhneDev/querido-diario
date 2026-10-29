@@ -29,6 +29,11 @@ def make_response(body, content_type=None):
         (CLOUDFLARE_CHALLENGE_PAGE, "application/pdf", "html"),
         (b"\xef\xbb\xbf\n  <html><body>Prefeitura</body></html>", None, "html"),
         (b"<HEAD><TITLE>502 Proxy Error</TITLE></HEAD>", None, "html"),
+        (
+            b"<!-- Google tag (gtag.js) -->\n<script async src='x'></script>",
+            None,
+            "html",
+        ),
         (b"Diario oficial em texto", "text/html", "html"),
         (b"Diario oficial em texto", "text/plain", "unknown"),
         (b"\x00\x01\x02\x03", "application/octet-stream", "unknown"),

@@ -14,7 +14,15 @@ _PDF_HEADER_WINDOW = 1024
 _FILETYPE_HEADER_SIZE = 261
 
 HTML_CONTENT_TYPES = (b"text/html", b"application/xhtml+xml")
-HTML_START_MARKERS = (b"<!doctype html", b"<html", b"<head", b"<body")
+HTML_START_MARKERS = (
+    b"<!doctype html",
+    b"<html",
+    b"<head",
+    b"<body",
+    # HTML fragments (e.g. pages starting with an analytics snippet)
+    b"<!--",
+    b"<script",
+)
 
 
 def detect_file_type(response):
